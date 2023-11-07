@@ -1,0 +1,1 @@
+java -jar "SugarRemovalUtility-jar-with-dependencies.jar" -i "All.txt" -t "3" -remTerm "false" -presMode "1" -oxyAtomsThres "0.4"
