@@ -1,2 +1,1 @@
-## TPCN
-A novel terpenoids database embedded with content
+## TPCN: A novel terpenoids database embedded with content
