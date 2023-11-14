@@ -3,11 +3,11 @@
 To gain unique insights into the quantitative diversity of natural products, we have developed the first content-embedded database of terpenoids (TPCN). This database can be accessed through a web-based computational toolkit available at http://www.tpcn.pro/. By conducting meticulous manual searches and analyzing over 10 thousand reference papers, the TPCN database has successfully integrated 6383 terpenoids obtained from 1,254 distinct plant species. It encompasses exhaustive details including isolation parts, comprehensive molecule structures, CAS numbers, and 7,508 content descriptions.
 ![image text](https://github.com/ylchen0622/TPCN/blob/main/TPCN.png "DBSCAN Performance Comparison")
 ## Environment
-1. python == 3.7.0
-2. rdkit == 2020.09.1
-3. numpy == 1.19.2
-4. pandas == 1.3.5
-5. matplotlib == 3.5.2
+* python == 3.7.0
+* rdkit == 2020.09.1
+* numpy == 1.19.2
+* pandas == 1.3.5
+* matplotlib == 3.5.2
 ## Codes
 ### >>> 0 data preparation
 Normalize structures and filter out compounds without structures
