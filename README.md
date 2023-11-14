@@ -27,7 +27,7 @@ Murcko scaffolds of terpenoids from different content ranges were generated usin
 ### >>> 4 glycosylation analysis
 Deglycoside processing of terpenoids in the TPCN database.
 * SRU parameters：java -jar "SugarRemovalUtility-jar-with-dependencies.jar" -i "filename" -t "3" -remTerm "false" -presMode "1" -oxyAtomsThres "0.4"
-### 5 similarity analysis
+### >>> 5 similarity analysis
 #### 5.1 Similarity analysis (Calculation)
 Using RDKit to calculate the similarity between terpenoids in the TPCN database based on Daylight fingerprint and Tanimoto coefficient.
 #### 5.2 Similarity analysis (heatmap)
