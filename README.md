@@ -1,6 +1,6 @@
 # TPCN: A novel terpenoids database embedded with content
 ## Overview
-<h3>TPCN is the first content-embedded database of terpenoids. It contains 6383 terpenoids that were derived from 1254 species, belonging to 156 plant families, and were extracted from 17 parts of the plants.</h3>
+TPCN is the first content-embedded database of terpenoids. It contains 6383 terpenoids that were derived from 1254 species, belonging to 156 plant families, and were extracted from 17 parts of the plants.
 ![image text](https://github.com/ylchen0622/TPCN/blob/main/TPCN.png "DBSCAN Performance Comparison")
 ## Environment
 1. python == 3.7.0
