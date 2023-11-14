@@ -26,8 +26,8 @@ Murcko scaffolds of terpenoids from different content ranges were generated usin
 11 physicochemical properties of terpenoids were calculated by RDKit. And the average value of the physicochemical properties of terpenoids from different content ranges was calculated.
 ### >>> 4 glycosylation analysis
 Deglycoside processing of terpenoids in the TPCN database.
-* SRU parameters:\n
-  java -jar "SugarRemovalUtility-jar-with-dependencies.jar" -i "filename" -t "3" -remTerm "false" -presMode "1" -oxyAtomsThres "0.4"
+* SRU parameters:
+java -jar "SugarRemovalUtility-jar-with-dependencies.jar" -i "filename" -t "3" -remTerm "false" -presMode "1" -oxyAtomsThres "0.4"
 ### >>> 5 similarity analysis
 #### 5.1 Similarity analysis (Calculation)
 Using RDKit to calculate the similarity between terpenoids in the TPCN database based on Daylight fingerprint and Tanimoto coefficient.
