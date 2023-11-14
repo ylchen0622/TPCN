@@ -8,9 +8,9 @@ TPCN is the first content-embedded database of terpenoids. It contains 6383 terp
 4. pandas == 1.3.5
 5. matplotlib == 3.5.2
 ## Codes
-### 0 data preparation
+### >>> 0 data preparation
 Normalize structures and filter out compounds without structures
-### 1 compound distribution
+### >>> 1 compound distribution
 It provides a comprehensive description of the distribution of terpenoids from different perspectives, including structural type, biological source, extraction part, and content.
 #### 1.1 category distribution
 Category distribution of terpenoids.
@@ -20,11 +20,11 @@ Part distribution of terpenoids. The distribution of each category of terpenoids
 The distribution of terpenoids from different family and species.
 #### 1.4 content distribution
 The content distribution of terpenoids. We segmented the content into seven ranges: 10-6% to 10-5%, 10-5% to 10-4%, 10-4% to 10-3%, 10-3% to 10-2%, 10-2% to 10-1%, 10-1% to 1% and 1% to 10%. The number of terpenoids in each content range was counted.
-### 2 scaffold analysis
+### >>> 2 scaffold analysis
 Murcko scaffolds of terpenoids from different content ranges were generated using RDKit.
-### 3 property analysis
+### >>> 3 property analysis
 11 physicochemical properties of terpenoids were calculated by RDKit. And the average value of the physicochemical properties of terpenoids from different content ranges was calculated.
-### 4 glycosylation analysis
+### >>> 4 glycosylation analysis
 Deglycoside processing of terpenoids in the TPCN database.
 * SRU parameters：java -jar "SugarRemovalUtility-jar-with-dependencies.jar" -i "filename" -t "3" -remTerm "false" -presMode "1" -oxyAtomsThres "0.4"
 ### 5 similarity analysis
